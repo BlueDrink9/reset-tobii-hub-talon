@@ -17,9 +17,7 @@ if %errorLevel% neq 0 (
 )
 
 :: 2. Define target paths and URLs
-:: CHANGE THIS URL to your repository's zip download link. 
-:: Typically: https://github.com/USERNAME/REPONAME/archive/refs/heads/main.zip
-set "ZIP_URL=https://github.com/USERNAME/REPONAME/archive/refs/heads/main.zip"
+set "ZIP_URL=https://github.com/bluedrink9/reset-tobii-hub-talon/archive/refs/heads/main.zip"
 set "TALON_DIR=%APPDATA%\talon\user\tobii-reset"
 set "PS1_SCRIPT=%TALON_DIR%\Reset-TobiiHub.ps1"
 
