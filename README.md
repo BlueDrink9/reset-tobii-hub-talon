@@ -40,7 +40,7 @@ reset tobii: user.system_command('schtasks /run /tn "ResetTobii"')
 
 ## Linux
 
-The script that does the equivalent reset of the Tobii parent hub is available [here](https://github.com/BlueDrink9/env/blob/master/shell/scripts/reset-tobii-hub.py) (permalink)[https://github.com/BlueDrink9/env/blob/61f264574c91af67d3983bbfd9b95dd3571d41af/shell/scripts/reset-tobii-hub.py]
+The script that does the equivalent reset of the Tobii parent hub is available [here](https://github.com/BlueDrink9/env/blob/master/shell/scripts/reset-tobii-hub.py) [permalink](https://github.com/BlueDrink9/env/blob/61f264574c91af67d3983bbfd9b95dd3571d41af/shell/scripts/reset-tobii-hub.py)
 
 To run this with talon, that script needs to be available on your PATH and runnable with sudo without a password. 
 For example on NixOS, I use [this script](https://github.com/BlueDrink9/env/blob/master/nix/root_scripts.nix) to automatically copy the python file as an executable that is runnable as pseudo without a password.
